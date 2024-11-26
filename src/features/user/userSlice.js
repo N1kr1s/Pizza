@@ -35,6 +35,7 @@ const initialState = {
   error: '',
 };
 
+
 const userSlice = createSlice({
   name: 'user',
   initialState,
@@ -63,3 +64,4 @@ const userSlice = createSlice({
 export const { updateName } = userSlice.actions;
 
 export default userSlice.reducer;
+
